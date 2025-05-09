@@ -1,0 +1,15 @@
+{
+    "name": "kyc-feed-api",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/kyc-feed-api",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": []
+        }
+    },
+    "remoteUser": "user"
+}

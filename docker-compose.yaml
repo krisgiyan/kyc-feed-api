@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/kyc-feed-api
+    environment:
+      - APP_ENV=dev
+    ports:
+      - "8000:8000"
